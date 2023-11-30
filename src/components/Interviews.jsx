@@ -49,7 +49,7 @@ function Interviews() {
     <div>
       <div>
         <div className="cinemaContainer">
-          <div className="btnContainer">
+        <div className="btnContainer">
             <div
               className="btnTag"
               onClick={() => {
@@ -124,6 +124,7 @@ function Interviews() {
               <div>See More at Strictly Boxing</div>
             </Link>
           </div>
+          
         </div>
       </div>
     </div>
