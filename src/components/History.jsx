@@ -44,8 +44,9 @@ function History() {
         />
 
         <div className="description">
-          USA, Elizabeth, New Jersey Born: August 17, 1968
-          <h2>Honored on November 14, 1986 (NJ Boxing Hall of Fame) </h2>
+        <h2 style={{color:"rosybrown"}}>Honored on November 14, 1986 (NJ Boxing Hall of Fame) </h2>
+        Elizabeth, New Jersey, USA <hr/> Born: August 17, 1968
+   
           Derrick Poppy Rolon's focus at Strictly Boxing is to interview boxers
           both amateur and professional. Poppy Rolon also seeks out fans of
           Boxing and solicits their opinion on fighters and upcoming fights

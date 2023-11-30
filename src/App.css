@@ -87,10 +87,11 @@
 .screen {
   /* border:solid grey; */
   width: 100%;
+  border-width:.2px;
 }
 .btnTag {
   /* border:solid grey; */
-  font-size:22px;
+  font-size:18px;
   margin: 1em;
   text-align: right;
   color: rosybrown;
@@ -104,6 +105,7 @@
   border: solid lemonchiffon;
   margin: 1em;
   height: 365px;
+  border-width:.2px;
   border-radius: 22px;
 }
 .framer {
@@ -117,14 +119,15 @@
   justify-content: space-around;
 }
 .hofImg {
-  width: 40%;
+  width: 50%;
 }
 .description {
   border: solid grey;
   width: 60%;
   padding: 1em;
-  text-align: center;
+  text-align: right;
   color: white;
+  font-size:15px;
 }
 .mainPic {
   width: 100%;
@@ -188,6 +191,7 @@
 .regPic {
   /* border:solid grey; */
   width: 100%;
+  margin-bottom:3em;
 }
 .splitContainer {
   /* display:flex; */
@@ -203,7 +207,7 @@
   width: 100%;
 }
 .joina {
-  margin: 2em;
+  margin: 1em;
 }
 .packageContainer {
   height: 42vh;
