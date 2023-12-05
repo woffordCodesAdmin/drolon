@@ -7,6 +7,7 @@ import Interviews from './components/Interviews';
 import LifeAfterBoxing from './components/LifeAfterBoxing';
 import Memberships from './components/Memberships';
 import Tutorials from './components/Tutorials';
+import Contact from './components/Contact';
 function App() {
   return (
     <div className="App">
@@ -17,6 +18,7 @@ function App() {
         <Route path="/lifeAfter" element={<LifeAfterBoxing />} />
         <Route path="/memberships" element={<Memberships />} />
         <Route path="/interviews" element={<Interviews />} />
+        <Route path="/contact" element={<Contact />} />
     </Routes>
     </div>
   );

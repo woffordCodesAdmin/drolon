@@ -9,7 +9,7 @@ function MainNav() {
           <Link to="/history"><div className="tab">About</div></Link>
           <Link to="/interviews"><div className="tab">Interviews</div></Link>
           <Link to="/memberships"><div className="tab">Memberships</div></Link>
-          <Link to=""><div className="tab">Contact</div></Link>
+          <Link to="/contact"><div className="tab">Contact</div></Link>
         </div>
       </div>
       

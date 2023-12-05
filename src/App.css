@@ -7,11 +7,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -117,13 +113,13 @@
   display: flex;
   /* border:solid white; */
   justify-content: space-around;
-  margin-top:2em;
+  margin-top:4em;
 }
 .hofImg {
   width: 50%;
 }
 .description {
-  border: solid grey;
+  /* border: solid grey; */
   width: 60%;
   padding: 1em;
   text-align: right;
@@ -238,4 +234,50 @@
 }
 .silo {
   width: 100%;
+}
+.smediaIcon{
+  border:solid white;
+  background-color: rosybrown;
+  height:40px;
+  width: 40px;
+  border-radius:50%;
+}
+.smediaIcon:hover{
+  border:solid white;
+  background-color: rosybrown;
+  height:40px;
+  width: 40px;
+  border-radius:50%;
+}
+.mediaHolder{
+  border-radius:22px;
+  
+  /* border:solid rosybrown; */
+  border-width:.2px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.nameSeq{
+  color:rosybrown;
+}
+.splitta{
+  margin-top:4em;
+  display:flex;
+  justify-content: space-around;
+}
+.wrapPic{
+  width:50%;
+}
+.wrapDesc{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:white;
+}
+.ruggedTxt{
+  font-size:42px;
+  color:rosybrown;
+}
+.lob{
+  border:solid rosybrown;
+  
+  margin-top:4em;
 }

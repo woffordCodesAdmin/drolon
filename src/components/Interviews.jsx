@@ -43,7 +43,7 @@ const reducer = (state, action) => {
 
 function Interviews() {
   const [state, dispatch] = useReducer(reducer, {
-    currentSource: "",
+    currentSource: "https://images.unsplash.com/photo-1636581563711-cd454f1bf99a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzB8fGJveGluZ3xlbnwwfHwwfHx8MA%3D%3D",
   });
   return (
     <div>
